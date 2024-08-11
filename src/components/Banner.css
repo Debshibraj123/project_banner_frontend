@@ -1,0 +1,44 @@
+.banner-container {
+    background-color: #007bff; /* Banner background color */
+    color: #fff; /* Text color */
+    padding: 20px;
+    border-bottom: 2px solid #0056b3; /* Darker border color */
+    position: relative;
+    transition: opacity 1s ease-out;
+    text-align: center;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .banner-content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .banner-content a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff; /* Button background color */
+    color: #007bff; /* Button text color */
+    border-radius: 5px;
+    border: 1px solid #007bff; /* Button border color */
+    margin-top: 10px;
+    text-transform: uppercase; /* Uppercase text */
+    font-weight: bold;
+  }
+  
+  .banner-content a:hover {
+    background-color: #0056b3;
+    color: #fff;
+    border-color: #0056b3;
+  }
+  
+  .countdown {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .fade-out {
+    opacity: 0;
+  }
+  
